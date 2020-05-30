@@ -1,0 +1,60 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="card tamNot">
+            <div class="header">
+                <h4 class="title">Notificações não lidas</h4>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-info">
+                            <span>This is a plain notification</span>
+                        </div>
+                        <div class="alert alert-info">
+                            <button type="button" aria-hidden="true" class="close">×</button>
+                            <span data-notify="icon" class="pe-7s-box1"></span>
+                            <span data-notify="message">This is a notification with close button.</span>
+                        </div>
+                        <div class="alert alert-info" data-notify="container">
+                            <button type="button" aria-hidden="true" class="close" (click)="showNotification()">
+                                <i class="fa fa-eye" style="margin-left: -2px"></i>
+                            </button>
+                            <span data-notify="icon" class="pe-7s-chat"></span>
+                            <span data-notify="message">This is a notification with close button and icon.</span>
+                        </div>
+                        <div class="alert alert-info" data-notify="container">
+                            <button type="button" aria-hidden="true" class="close">×</button>
+                            <span data-notify="icon" class="pe-7s-chat"></span>
+                            <span data-notify="message">This is a notification with close button and icon.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="card tamNot2">
+            <div class="header">
+                <h4 class="title">Notificações lidas</h4>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-success">
+                            <button type="button" aria-hidden="true" class="close">×</button>
+                            <span><b> Success - </b> This is a regular notification made with ".alert-success"</span>
+                        </div>
+                        <div class="alert alert-warning">
+                            <button type="button" aria-hidden="true" class="close">×</button>
+                            <span><b> Warning - </b> This is a regular notification made with ".alert-warning"</span>
+                        </div>
+                        <div class="alert alert-danger">
+                            <button type="button" aria-hidden="true" class="close">×</button>
+                            <span><b> Danger - </b> This is a regular notification made with ".alert-danger"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

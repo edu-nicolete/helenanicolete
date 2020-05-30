@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+.tamTab {
+    height: 60rem;
+    overflow-x: auto;
+}
+
+.tamNot {
+    height: 30rem;
+    overflow-x: auto;
+}
+
+.tamNot2 {
+    height: 25rem;
+    overflow-x: auto;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

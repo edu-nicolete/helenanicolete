@@ -1,0 +1,45 @@
+<div class="main-content" >
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <lbd-chart
+                            [title]="'Estatisticas das vendas'"
+                            [chartClass]="'ct-perfect-fourth'"
+                            [chartType]="emailChartType"
+                            [chartData]="emailChartData"
+                            [legendItems]="emailChartLegendItems"
+                            [withHr]="true">
+                    </lbd-chart>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card tamTab">
+                    <div class="header">
+                        <h4 class="title">Vendas</h4>
+                    </div>
+                    <div class="content">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th class="text-center" *ngFor="let cell of tableData2.headerRow">{{ cell }}</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr *ngFor="let row of tableData2.dataRows">
+                                <td class="text-center">{{row[0]}}</td>
+                                <td class="text-center">{{row[1]}}</td>
+                                <td class="text-center">{{row[2]}}</td>
+                                <td class="text-center">{{row[3]}}</td>
+                                <td class="text-center">
+                                    <button class="btn btn-primary btn-fill btn-sm">Ok</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
