@@ -7,8 +7,8 @@ import {newArray} from '@angular/compiler/src/util';
     styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
-    private tabelaPontosPsi: any;
-    private tabelaPontosPsi2: any;
+    public tabelaPontosPsi: any;
+    public tabelaPontosPsi2: any;
 
     constructor(private element: ElementRef) {
     }
