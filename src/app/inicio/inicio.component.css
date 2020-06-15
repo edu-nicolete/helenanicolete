@@ -491,6 +491,16 @@ footer {
     color: white;
 }
 
+.fa-youtube {
+    background: #C93333;
+    color: white;
+}
+
+.fa-youtube:hover {
+    background: #c45a5a;
+    color: white;
+}
+
 .fa-whatsapp {
     background: limegreen;
     color: white;
