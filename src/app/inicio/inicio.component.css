@@ -123,10 +123,20 @@
     padding: 0px 20px;
 }
 
+.iframe-youtube {
+    width: 300px;
+    height: 300px;
+}
+
 @media (min-width: 768px) {
     .masthead h1 {
         font-size: 4rem;
         line-height: 4rem;
+    }
+
+    .iframe-youtube {
+        width: 460px;
+        height: 315px;
     }
 }
 
